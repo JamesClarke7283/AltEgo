@@ -8,6 +8,10 @@ A Free/Libre Maltego replacement, written in python and TKinter.
 - Transforms (get data about a Entity from various data sources)
 - CLI Version (comes with a CLI interface to make automation easier)
 
+## Screenshots
+
+![Main Screen](./assets/screenshots/screenshot_00.webp "Main Screen")
+
 ## Installing
 You can install this program by grabbing the source code and running `pip install .` inside the project root.
 
