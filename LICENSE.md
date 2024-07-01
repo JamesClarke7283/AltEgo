@@ -1,3 +1,4 @@
+AltEgo: An open-source alternative to Maltego
 Copyright(C) 2024 James David Clarke <james@jamesdavidclarke.com>
 
 # GNU GENERAL PUBLIC LICENSE

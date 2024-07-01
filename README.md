@@ -12,15 +12,32 @@ A Free/Libre Maltego replacement, written in python and TKinter.
 
 ![Main Screen](./assets/screenshots/screenshot_00.webp "Main Screen")
 
-## Installing
+## Running in Dev Mode
 You can install this program by grabbing the source code and running `pip install .` inside the project root.
 
 ```bash
 # Download
 git clone https://github.com/JamesClarke7283/AltEgo.git
 cd AltEgo
-# Install
-pip install .
+# Make a virtual environment
+python3 -m venv .venv
+# Enter environment
+source .venv/bin/activate
+# Install Dependencies
+pip3 install briefcase
+# Run
+briefcase dev
+
+# Or to install
+briefcase package
+# Then look in the ./dist directory, the package/executable for your platform will be in that folder.
+```
+
+## Build docs
+```bash
+cd docs/sphinx
+make html
+# Now open the index.html in the ./docs/sphinx/build/html directory.
 ```
 
 ## Licensing
@@ -39,7 +56,7 @@ The documentation for this program is licensed under the [GNU Free Documentation
 
 ### Assets License
 
-All assets in the `./assets` directory are licensed under the [Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/) license. You can view the full text of the license in the [LICENSE](./assets/LICENSE) file located in the `./assets` directory.
+All assets in the `./src/altego/resources` directory are licensed under the [Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/) license. You can view the full text of the license in the [LICENSE](./src/altego/resources/LICENSE) file located in the `./src/altego/resources` directory.
 
 ### License Exceptions
 
