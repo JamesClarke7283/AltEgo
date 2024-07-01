@@ -10,7 +10,7 @@ A Free/Libre Maltego replacement, written in python and TKinter.
 
 ## Screenshots
 
-![Main Screen](./assets/screenshots/screenshot_00.webp "Main Screen")
+![Main Screen](./src/altego/resources/screenshots/screenshot_00.png "Main Screen")
 
 ## Running in Dev Mode
 You can install this program by grabbing the source code and running `pip install .` inside the project root.

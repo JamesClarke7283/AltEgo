@@ -21,9 +21,9 @@ pyproject_path = root_dir / "pyproject.toml"
 with open(pyproject_path, "rb") as f:
     pyproject_data = tomllib.load(f)
 
-project = pyproject_data["project"]["name"]
-author = pyproject_data["project"]["authors"][0]["name"]
-release = pyproject_data["project"]["version"]
+project = pyproject_data["tool"]["briefcase"]["project_name"]
+author = pyproject_data["tool"]["briefcase"]["author"]
+release = pyproject_data["tool"]["briefcase"]["version"]
 
 copyright = f'2024, {author}'
 

@@ -4,12 +4,12 @@ AltEgo Modules
 .. toctree::
    :maxdepth: 2
 
-.. automodule:: backend.core
+.. automodule:: altego.backend.core
    :members:
    :undoc-members:
    :show-inheritance:
 
-.. automodule:: gui.app
+.. automodule:: altego.app
    :members:
    :undoc-members:
    :show-inheritance:

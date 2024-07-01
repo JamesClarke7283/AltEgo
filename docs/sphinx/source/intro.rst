@@ -13,6 +13,6 @@ Features
 Screenshots
 -----------
 
-.. image:: ../../../assets/screenshots/screenshot_00.webp
+.. image:: ../../../src/altego/resources/screenshots/screenshot_00.png
    :alt: Main Screen
    :align: center
