@@ -2,6 +2,23 @@
 
 A Free/Libre Maltego replacement, written in python and TKinter.
 
+## Features
+
+- CaseFile like GUI interface
+- Transforms (get data about a Entity from various data sources)
+- CLI Version (comes with a CLI interface to make automation easier)
+
+## Installing
+You can install this program by grabbing the source code and running `pip install .` inside the project root.
+
+```bash
+# Download
+git clone https://github.com/JamesClarke7283/AltEgo.git
+cd AltEgo
+# Install
+pip install .
+```
+
 ## Licensing
 
 ### Software License
@@ -19,3 +36,14 @@ The documentation for this program is licensed under the [GNU Free Documentation
 ### Assets License
 
 All assets in the `./assets` directory are licensed under the [Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/) license. You can view the full text of the license in the [LICENSE](./assets/LICENSE) file located in the `./assets` directory.
+
+### License Exceptions
+
+If you need to use AltEgo under different licensing terms than the GPLv3-or-later, you can contact me to negotiate a commercial license. Licensing exceptions are available for a fee.
+
+To discuss licensing exceptions and fee arrangements, please contact:
+
+**James Clarke**  
+Email: [james@jamesdavidclarke.com](mailto:james@jamesdavidclarke.com)
+
+I will be happy to discuss your specific needs and how we can accommodate them under a different license.
