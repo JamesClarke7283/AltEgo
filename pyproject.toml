@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "altego"
+version = "0.1.0"
+description = "An open-source alternative to Maltego"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "GPL-3.0-or-later" }
+authors = [
+    { name = "James Clarke", email = "james@jamesdavidclarke.com" }
+]
+
+[project.optional-dependencies]
+tkinter = []
+
+[project.scripts]
+altego = "src.main:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
